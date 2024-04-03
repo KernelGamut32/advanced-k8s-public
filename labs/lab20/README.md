@@ -1,3 +1,5 @@
-# Lab 20 - Blue/Green Deployments
+# Lab 20 - Role-Based Access Control (RBAC) with Service Accounts
 
-Walk through the tutorial defined at https://medium.com/containers-101/the-simplest-guide-to-using-blue-green-deployment-in-kubernetes-d46190e762a6. Utilize either a local instance of k8s using Docker-Desktop with Kubernetes enabled (or another comparable option like Minikube) or a remote instance to which you have permission to execute resource creation against.
+Walk through the tutorial defined at https://kubernetes.courselabs.co/labs/rbac/. This tutorial uses files defined in a separate GitHub repository (https://github.com/courselabs/kubernetes) created by Elton Stoneman which provides an additional accompaniment to his execellent KIAMOL book.
+
+Source files used for this exercise (including exercise solution) can be found at https://github.com/courselabs/kubernetes/tree/main/labs/rbac.

@@ -1,5 +1,5 @@
-# Lab 22 - Role-Based Access Control (RBAC) with User Accounts
+# Lab 22 - Ingress
 
-Walk through the tutorial defined at https://kubernetes.courselabs.co/labs/rbac/rbac-for-users.html. This tutorial uses files defined in a separate GitHub repository (https://github.com/courselabs/kubernetes) created by Elton Stoneman which provides an additional accompaniment to his execellent KIAMOL book.
+Walk through the tutorial defined at https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/. Utilize either a local instance of k8s using Docker-Desktop with Kubernetes enabled (or another comparable option like Minikube) or a remote instance to which you have permission to execute resource creation against.
 
-Source files used for this exercise can be found at https://github.com/courselabs/kubernetes/tree/main/labs/rbac.
+https://kubernetes.github.io/ingress-nginx/deploy/#docker-for-mac
