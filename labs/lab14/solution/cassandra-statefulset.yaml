@@ -19,7 +19,8 @@ metadata:
     app: cassandra
 spec:
   serviceName: cassandra
-  replicas: 4
+  replicas: 3
+  # replicas: 4
   selector:
     matchLabels:
       app: cassandra
@@ -99,15 +100,15 @@ spec:
       name: cassandra-data
     spec:
       accessModes: [ "ReadWriteOnce" ]
-      storageClassName: fast
+      # storageClassName: fast
       resources:
         requests:
           storage: 1Gi
----
-kind: StorageClass
-apiVersion: storage.k8s.io/v1
-metadata:
-  name: fast
-provisioner: k8s.io/minikube-hostpath
-parameters:
-  type: pd-ssd
+# ---
+# kind: StorageClass
+# apiVersion: storage.k8s.io/v1
+# metadata:
+#   name: fast
+# provisioner: k8s.io/minikube-hostpath
+# parameters:
+#   type: pd-ssd
